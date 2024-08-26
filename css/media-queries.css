@@ -1,29 +1,39 @@
-@media (max-width:900px) {
+/* Media Queries */
+
+/* Estilos para pantallas de hasta 900px de ancho */
+@media (max-width: 900px) {
+    /* Reestructuración de la cuadrícula y ajustes de tamaño para mejorar la usabilidad en pantallas medianas */
     .blogs-main-new {
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
     }
+
     .blogs-news-img-container {
         grid-row: 2;
     }
+
     .blogs-news-info-container {
         grid-column: 1;
         grid-row: 3;
     }
+
     .blogs-post-container .post-container {
         max-width: 45%;
     }
+
     .proyect-main-container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2;
     }
+
     .profile-main-container .profile-container {
         display: block;
     }
 }
 
-
+/* Estilos para pantallas de hasta 600px de ancho */
 @media (max-width: 600px) {
+    /* Ajustes adicionales para pantallas pequeñas, enfocándose en maximizar el ancho de los contenedores */
     .blogs-post-container .post-container {
         max-width: 95%;
     }
